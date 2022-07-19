@@ -59,7 +59,7 @@ client.connect((err) => {
 });
 
 app.get("/", (req, res) => {
-  res.send("Hello Photo Artistry Server!");
+  res.send("Hello Photo Artistry!");
 });
 
 app.listen(port, () => {
